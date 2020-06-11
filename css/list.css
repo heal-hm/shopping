@@ -1,0 +1,115 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 14px;
+}
+.sk_list {
+    float: left;   
+    height: 45px;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0px 30px;
+}
+.sk_cont {
+    float: left;   
+    height: 45px;
+}
+.sk_cont ul li {
+    float: left;
+    text-align: center;
+    line-height: 49px;
+}
+.sk_cont ul li:last-child a::after {
+    content: '\e900';
+    font-family: "icomoon";
+}
+.sk_cont ul li a {
+    padding: 0px 23px;
+}
+.contain_hd {
+    height: 120px;
+}
+.contain_bd {
+    margin-top: 25px;
+}
+.contain_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    text-align: center;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.contain_bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+.contain_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.contain_bd ul li i {
+    display: inline-block;
+    width: 124px;
+    height: 250px;
+    margin-top: 20px;
+}
+.contain_bd ul li p {
+    padding: 0px 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 25px;
+}
+.contain_bd ul li h4 {
+    padding: 0px 10px;
+    font-size: 22px;
+    color: #e60012;
+    text-align: left;
+}
+.contain_bd ul li h4 span {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration:line-through;
+    font-weight: 400;
+}
+.progress {
+    margin: 10px;
+    height: 20px;
+}
+.progress b {
+    float: left;
+}
+.prog_bar {
+    float: left;
+    overflow: hidden;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    margin: 5px 10px;
+}
+.prog_bar_cont {
+    width: 118px;
+    height: 12px;
+    background-color: #ed282e;
+}
+.panicb {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ed282e;
+}
+.panicb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+}

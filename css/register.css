@@ -1,0 +1,123 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo img {
+    margin-top: 17px;
+}
+.register_hd {
+    height: 42px;
+    background-color: #ececec;
+    margin-top: 20px;
+}
+.register_hd h4 {
+    font-size: 18px;
+    color: #333333;
+    line-height: 42px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+.register_hd h4 span {
+    float: right;
+    font-size: 14px;
+}
+.register_hd h4 span a {
+    color: #c81623;
+}
+.register_bd {
+    width: 560px;
+    height: 380px;
+    margin: 50px 0 0 310px;
+}
+.register_bd ul li {
+    margin-bottom: 20px;
+}
+.register_bd ul li label {
+    display: inline-block;
+    width: 90px;
+    font-size: 14px;
+    text-align: right;
+}
+.register_bd ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+.error {
+    color: #c81623;
+    margin-left: 10px;
+}
+.success {
+    color: green;
+    margin-left: 10px;
+}
+.erro_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    background: url(../images/error.png) no-repeat;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.register_bd ul .safe {
+    height: 15px;
+    color: #bebebe;
+    margin: -10px 0 20px 170px;
+}
+.register_bd ul li em {
+    color: #fff;
+}
+.weak,
+.medium,
+.strong{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 12px;
+    line-height: 12px;
+    background-color: #de1111;
+}
+.medium {
+    background-color: #40b83f;
+}
+.strong {
+    background-color: #f79100;
+}
+.agree {
+    margin: 20px 0px 40px 85px;
+    line-height: 12px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree span a {
+    color: #1ba1e6;
+}
+.btn {
+    margin-left: 97px;
+}
+.btn button {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    background-color: #c81623;
+}
+.copyright {
+    padding-top: 23px;
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+}
+.copyright .links {
+    height: 30px;
+    text-align: center;
+}
+.copyright .links a{
+    padding: 0px 10px;
+}
